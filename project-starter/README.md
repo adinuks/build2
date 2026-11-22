@@ -1,15 +1,18 @@
-# Project Starter
+# Project starter
 
-A minimal skeleton for new projects.
+Three files that turn Claude Code into your thinking partner. Put them in the root of a new project folder, next to a `.claude/skills/` folder holding the skills from the kit.
 
-## Structure
+| File | What it does |
+|---|---|
+| CLAUDE.md | Tells Claude how you work. It reads it every session. |
+| intent.md | Your thinking, saved. Claude reads it first and updates it after each stage. |
+| design.md | Your look and feel. Points to the ui-design-system skill. |
 
-- `src/` – source code
-- `tests/` – tests
-- `docs/` – documentation
+## Start
 
-## Getting started
+1. Make a new folder for one real problem.
+2. Copy these three files into it. Copy the skills into `.claude/skills/`.
+3. Open the folder in Claude Code.
+4. Type: "Read CLAUDE.md and intent.md. Let's start."
 
-1. Copy this folder and rename it.
-2. Update this README with your project's name and description.
-3. Add your code under `src/`.
+Claude will ask what you want to achieve. Answer in plain words.
